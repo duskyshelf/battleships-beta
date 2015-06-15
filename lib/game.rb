@@ -6,12 +6,8 @@ class Game
   attr_reader :ship2
 
   def initialize
-    @ship1 = Ship.new 1
-    @ship2 = Ship.new 2
-  end
-
-  def choose_ship ship
-
+    @ship1 = Ship.new carrier 1
+    @ship2 = Ship.new boat 2
   end
 
 end
