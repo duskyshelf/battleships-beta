@@ -4,7 +4,4 @@ class Ship
     @size = size
   end
 
-  def choose ship
-  end
-
 end
